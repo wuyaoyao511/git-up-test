@@ -9,7 +9,7 @@ h3{
 	font-family: microsoftYaHei 微软雅黑;
 }
 nav{
-	background-color: #fff;
+	background:rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(83, 173, 247, 0.08) 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;	
 	height: 50px;
 }
 
@@ -40,8 +40,8 @@ nav .xuehao{
 }
 
 #head{
-	height: 500px;
-	background:url("school.png"); 
+	height: 600px;
+	background:url("school7.png"); 
 	/*需要改变图片大小*/
 	/*rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%) repeat scroll 0 0;*/
 	box-shadow:0 -1px 0 rgba(0, 0, 0, 0.1) inset;
@@ -66,10 +66,10 @@ nav .xuehao{
 #head .daoyu{
 	width: 500px; 
 	margin: 0 auto;
-	color: #fff;
-	border-radius: 8px;
+	color: #333;
+	border-radius: 10px;
 	box-shadow:0 3px 10px #000;
-	background-color: #1e8184;
+	background: linear-gradient(to bottom, rgba(83, 173, 247, 0.08) 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;
 	line-height: 50px;
 	padding:5px 20px;
 	font-size: 18px;
