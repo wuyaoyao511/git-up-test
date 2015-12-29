@@ -5,6 +5,9 @@
 a{
 	text-decoration: none;
 }
+h3{
+	font-family: microsoftYaHei 微软雅黑；
+}
 nav{
 	background-color: #fff;
 	height: 50px;
@@ -54,6 +57,11 @@ nav .xuehao{
 	height: 50px;
 	line-height: 50px;
 	margin: 0 auto;
+}
+#head .daoyu{
+	width: 450px; 
+	margin: 0 auto;
+	color: #1e8184;
 }
 
 #section1{
