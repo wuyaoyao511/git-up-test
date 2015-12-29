@@ -12,8 +12,13 @@ nav li{
 	height: 50px
 }
 .name{
+	float: left;
 	line-height: 50px;
 	padding-left: 80px;
+	width: 80px;
+}
+.name span{
+	color: #fff;
 }
 .top-right{
 	float:right;
