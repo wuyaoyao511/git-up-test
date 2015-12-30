@@ -73,7 +73,19 @@ nav .xuehao{
 	line-height: 40px;
 	padding:8px 20px;
 	font-size: 18px;
+}
+svg#arrow{
+	position: absolute;
+	/*margin-top: 600px;*/
+	margin-left: 49%;
+	animation: myarrow 10s infinite;
+-webkit-animation:myarrow 10s infinite; /*Safari and Chrome*/
+}
+}
 
+@keyframes myarrow{
+	from {left: 600px;}
+to {left: 700px;}
 }
 
 #section1{
