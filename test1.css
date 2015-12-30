@@ -70,22 +70,26 @@ nav .xuehao{
 	border-radius: 10px;
 	box-shadow:0 3px 10px #000;
 	background: linear-gradient(to bottom, rgba(83, 173, 247, 0.08) 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;
-	line-height: 50px;
-	padding:5px 20px;
+	line-height: 40px;
+	padding:8px 20px;
 	font-size: 18px;
 
 }
 
-#section1{
-	
-	background-color: #fff;
-
+#section1{	
+	background-color: #1e8184;
 }
 
 .zuowei{
 	margin:20px 0 15px 50px;
 }
 
+#section1.explain{
+	float: right;
+}
+#section1.explain{
+	width: 
+}
 #section2{
 	height: 50px;
 	background-color: #ccc;
