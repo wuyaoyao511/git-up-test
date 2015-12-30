@@ -180,7 +180,7 @@ img.zuowei{
 
 #section4{
 	height: 700px;
-	background-color: #ccc;
+	background:url("1.jpg")  no-repeat;
 }
 #bottom{
 	height: 80px;
