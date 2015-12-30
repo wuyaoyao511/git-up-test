@@ -78,17 +78,29 @@ nav .xuehao{
 
 #section1{	
 	background-color: #1e8184;
+	height: 340px;
 }
 
-.zuowei{
-	margin:20px 0 15px 50px;
+img.zuowei{
+	margin:736px 0 15px 50px;
+	position: absolute;
 }
 
-#section1.explain{
-	float: right;
+#section1 .explain{
+	
+	margin-left: 600px;
+	width: 400px;
 }
-#section1.explain{
-	width: 
+#section1 h3{
+	color: #eee;
+	font-size: 35px;
+	line-height: 80px;
+	text-align: center; 
+}
+#section1 p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
 }
 #section2{
 	height: 50px;
