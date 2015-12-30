@@ -76,8 +76,11 @@ nav .xuehao{
 
 }
 
-#section1{	
-	background-color: #1e8184;
+#section1{
+	background: linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
+	background: -moz-linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
+	background: -webkit-linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
+	background: -o-linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
 	height: 340px;
 }
 
@@ -87,8 +90,9 @@ img.zuowei{
 }
 
 #section1 .explain{
-	
-	margin-left: 600px;
+	padding-top: 30px;
+	margin-left: 55%;
+	/*margin-left: 750px;*/
 	width: 400px;
 }
 #section1 h3{
