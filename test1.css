@@ -163,8 +163,23 @@ img.zuowei{
 .icon-profile-female:before {
     content: "\e901";
 }
-#section2 .content{
-	margin-left: 50px;
+.icon-profile-female{
+	color: #B62727;
+}
+.icon-profile-male{
+  color: #0075D8;
+}
+
+#section2 .content-left{
+	float: left;
+	padding:30px 0 30px 50px;
+	width: 45%;
+}
+#section2 .content-right{
+	float: right;
+	width: 45%;
+	padding:30px 50px 30px 0;
+
 }
 #section2 span{
 	line-height: 28px;
@@ -174,14 +189,14 @@ img.zuowei{
 	line-height: 50px;
 	text-align: center;
 	padding-top: 30px;
-		color: #424b50;
-
+	color: #424b50;
 }
 
 
 
 
 #section3{
+	clear: both;
 	background-color: #350B35;
 	color: #fff;
 }
