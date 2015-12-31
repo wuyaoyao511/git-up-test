@@ -1,10 +1,12 @@
 *{
 	margin:0;
 	top:0;
-	font-family: "Microsoft YaHei" "微软雅黑" 
-	"SimHei" "\9ED1\4F53" "黑体"
-	 ;
 
+}
+body{
+	font-family: "Microsoft YaHei","微软雅黑", 
+	SimHei, "\9ED1\4F53", "黑体"
+	 ;
 }
 h1{
 	font-size: 34px;
@@ -111,8 +113,9 @@ nav .xuehao{
 }
 
 img.zuowei{
-	margin:908px 0 15px 50px;/*每次改动上面元素需要调整margin-top*/
-	position: absolute;
+float: left;
+padding-top: 15px;
+padding-left: 50px;	
 }
 
 #section1 .explain{
@@ -227,7 +230,7 @@ img.zuowei{
 
 
 #section4{
-	height: 700px;
+	height: 680px;
 	background:url("1.jpg")  no-repeat;
 	-moz-background-size:100% 100%; /* 老版本的 Firefox */
 	background-size:100% 100%;
