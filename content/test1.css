@@ -1,7 +1,9 @@
 *{
 	margin:0;
 	top:0;
-	font-family:"Microsoft YaHei" "微软雅黑";
+	font-family: "Microsoft YaHei" "微软雅黑" 
+	"SimHei" "\9ED1\4F53" "黑体"
+	 ;
 
 }
 h1{
@@ -21,7 +23,8 @@ ul{
 }*/
 
 nav{
-	background:rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(83, 173, 247, 0.08) 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;	
+	background: rgba(0, 0, 0, 0);
+	background: linear-gradient(to bottom, rgba(83, 173, 247, 0.08) 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;	
 	height: 50px;
 }
 
@@ -52,8 +55,9 @@ nav .xuehao{
 }
 
 #head{
-	height: 750px;
-	background:url("school7.png")  no-repeat;
+	height: 680px;
+	height: 80%vh;
+	background:url("school9.png")  no-repeat;
 	-moz-background-size:100% 100%; /* 老版本的 Firefox */
 	background-size:100% 100%;
 	box-shadow:0 -1px 0 rgba(0, 0, 0, 0.1) inset;
@@ -65,7 +69,7 @@ nav .xuehao{
 	height: 100px;
 	text-align: center;
 	line-height: 50px;
-	margin: 90px auto 0;
+	margin: 50px auto 0;
 	font-size: 45px;
 	font-weight: bolder;
 }
@@ -88,6 +92,8 @@ nav .xuehao{
 	border-radius: 10px;
 	box-shadow:0 3px 10px rgba(0, 0, 0, 0.6);
 	background: linear-gradient(to bottom, rgba(83, 173, 247, 0.08) 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=rgba(83, 173, 247, 0.08), endColorstr=rgba(255, 255, 255, 0));/*IE<9>*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=rgba(83, 173, 247, 0.08), endColorstr=rgba(255, 255, 255, 0))";/*IE8+*/
 	line-height: 40px;
 	padding:8px 20px;
 	font-size: 18px;
@@ -96,7 +102,8 @@ nav .xuehao{
 
 
 #section1{
-	background: linear-gradient(to bottom, #0B5C37 0%, #05141D 100%) repeat scroll 0 0;	
+	background: #0D443B;
+	background: linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
 	background: -moz-linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
 	background: -webkit-linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
 	background: -o-linear-gradient(to bottom, #0B5C37 0%, #0D443B 100%) repeat scroll 0 0;	
@@ -226,10 +233,11 @@ img.zuowei{
 	background-size:100% 100%;
 }
 #section4 .conclu{
+	height: 90%;/*给不支持calc的浏览器*/
 	/*Firefox*/
-	height: -moz-calc(100% - 20px);
+	height: -moz-calc(100% - 60px);
 	/*chrome safari*/
-	height: -webkit-calc(100% - 20px);
+	height: -webkit-calc(100% - 60px);
 	/*Standard */
 	height: calc(100% - 60px);
 	width: 436px;
