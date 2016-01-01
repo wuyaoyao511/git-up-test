@@ -264,4 +264,10 @@ padding-left: 50px;
 	text-align: center;
 	line-height: 50px;
 }
+#bottom p:hover{
+	color: #777;
+	font-size: 20px;
+	font-weight: bold;
+
+}
 
